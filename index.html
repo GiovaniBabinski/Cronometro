@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="cronometro criado por mim para aperfeiçoar minhas habilidades de html,css e js">
+    <meta name="keywords" content="cronometro,html ,css,javaScript,tempo">
+    <meta name="author" content="Giovani Babinski">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cronômetro</title>
+</head>
+
+<body>
+    <h1 class="titulo">Cronômetro</h1>
+    <h2 class="legendaTempo">Tempo</h2>
+    <h3 id="cronometro" class="tempoCorrendo">0</h3>
+
+    <div class="areaCronometro">
+        <div class="btn">
+            <button onclick="iniciarContagem()" ; class="start">Iniciar</button>
+            <button onclick="pausar()" ; class="pause">Pausar</button>
+        </div>
+        <div class="btnDown">
+            <button onclick="zerar();" class="reset">Zerar</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
